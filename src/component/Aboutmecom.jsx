@@ -4,13 +4,13 @@ import CV from '../../src/assets/docs/CV.pdf'
 
 const Aboutmecom = () => {
   return (
-    <main className='relative bg-cover w-screen h-screen bg-gradient-to-r from-neutral-300 to-stone-400 '>
+    <main className='relative bg-cover w-screen h-screen bg-stone-200 '>
 
-      <div className='absolute  h-[100%] w-[98%] mx-auto'>
-        <div className='grid grid-cols-2 gap-5 mx-auto w-[94%] h-[75%] mt-20'>
-        <div className='mt-10'>
+      <div className='absolute h-[100%] w-[98%] mx-auto'>
+        <div className='grid grid-cols-2 gap-5 mx-auto w-[94%] h-[75%] mt-20 '>
+        <div className='mt-10 pl-6'>
 
-          <h2 className='flex font-bold font-serif text-[2.6rem] text-left mt-10  text-amber-700'>About me</h2>
+          <h2 className='flex font-bold font-serif text-[2.6rem] text-left mt-10 text-stone-600'>About me</h2>
           <h4 className='font-bold text-[1.8rem] font-serif text-left mt-5'><span className='underline decoration-[#bda04296]'>Phimvipa Vimolroj</span> / Aomsin / 26</h4>
           <h3 className='text-[1.5rem] text-left font-extralight'>/phimph̒ wip̣hā wiml rocn̒/ <span className='italic font-normal'>noun.</span></h3>
 
@@ -31,6 +31,7 @@ const Aboutmecom = () => {
 
           <div className='bg-stone-600 rounded-lg pb-2 pt-1 mt-3'>
             <p className='pt-2 text-center text-[1.050rem] font-light text-stone-50'>Tech Skills : HTML / CSS / JS / React / NodeJS / ExpressJS / MongoDB / SQL / Git</p>
+            <p className='pt-4 text-center text-[1.1rem] font-light text-stone-50'>Tools : Figma / Postman / Power BI / Visual Studio Code</p>
             <p className='pt-4 text-center text-[1.1rem] font-light text-stone-50'>Soft Skills : Teamwork / Proactiveness / Time Management / Growth Mindset</p>
           </div>
 

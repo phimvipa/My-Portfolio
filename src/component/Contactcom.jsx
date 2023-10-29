@@ -8,13 +8,13 @@ function Contactcom() {
         </div>
         <nav>
             <header className="footer-title">Email</header> 
-            <a className="link link-hover text-[1.1rem]">phimvipa.vimolroj@gmail.com</a> 
+            <a href="mailto:phimvipa.vimolroj@gmail.com" className="link link-hover text-[1.1rem]">phimvipa.vimolroj@gmail.com</a> 
         </nav>
         <div>
             <header className="footer-title">Social</header> 
             <div className="grid grid-col gap-2">
-                <a href="https://github.com/phimvipa" className='btn btn-active btn-neutral'>Github</a>
-                <a href="https://www.linkedin.com/in/phimvipa-vimolroj/" className='btn btn-active btn-neutral'>LinkedIn</a>
+                <a href="https://github.com/phimvipa" className='btn btn-active btn-neutral rounded-full px-20'>Github</a>
+                <a href="https://www.linkedin.com/in/phimvipa-vimolroj/" className='btn btn-active btn-neutral rounded-full px-10 '>LinkedIn</a>
             </div>
         </div>
     </footer>

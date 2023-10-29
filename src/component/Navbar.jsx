@@ -9,10 +9,10 @@ function Navbar() {
         </div>
 
         <div className='flex text-slate-900 gap-x-7 '>
-            <Link className='no-underline hover:underline' to="/home">Home</Link>
-            <Link className='no-underline hover:underline' to="/aboutme">About me</Link>
-            <Link className='no-underline hover:underline' to="/projects">Projects</Link>
-            <Link className='mr-2 no-underline hover:underline' to="/contact">Contact</Link>
+            <a className='no-underline hover:underline' href="#home">Home</a>
+            <a className='no-underline hover:underline' href="#aboutme">About me</a>
+            <a className='no-underline hover:underline' href="#projects">Projects</a>
+            <a className='mr-2 no-underline hover:underline' href="#contact">Contact</a>
         </div>
     </nav>
   )
